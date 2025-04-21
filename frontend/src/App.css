@@ -1,0 +1,68 @@
+
+body {
+  margin: 0;
+  background-color: #e6f0f7; 
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.custom-navbar {
+  background-color: #003153;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.app-title {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  background-color: #ffffff; 
+  padding: 30px;
+  margin: 30px auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+  max-width: 1100px;
+}
+
+footer {
+  background-color: #003153;
+  color: #ffffff !important;  
+  text-align: center;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+
+
+table {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.table thead th {
+  background-color: #222222;
+  color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #111111;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #1a1a1a;
+}
+
+
